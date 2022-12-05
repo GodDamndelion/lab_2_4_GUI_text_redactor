@@ -333,6 +333,8 @@ namespace WindowsFormsApp1
                 if (String.Concat(s_mas) == "Meta")
                 {
                     s2 += "\r\n#Art@artdyk #Арт@artdyk";
+                    if (AddBirthdayTagsCheckBox.Checked)
+                        s2 += "\r\n#BirthdayTD@artdyk #TD@artdyk #ДеньРожденияТД@artdyk #ТД@artdyk";
                     was_meta = true;
                 }
                 if (black_list.Contains(s2))
@@ -361,6 +363,8 @@ namespace WindowsFormsApp1
             if (!was_meta)
             {
                 textBoxFile2.AppendText(Environment.NewLine + "\r\nMeta\r\n#Art@artdyk #Арт@artdyk");
+                if (AddBirthdayTagsCheckBox.Checked)
+                    textBoxFile2.AppendText(Environment.NewLine + "\r\n#BirthdayTD@artdyk #TD@artdyk #ДеньРожденияТД@artdyk #ТД@artdyk");
             }
         }
         public void closingSaving(bool answer, object sender, EventArgs e)

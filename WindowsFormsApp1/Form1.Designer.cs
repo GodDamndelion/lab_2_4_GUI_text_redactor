@@ -45,22 +45,28 @@
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.splitContainer2 = new System.Windows.Forms.SplitContainer();
+            this.AddBirthdayTagsCheckBox = new System.Windows.Forms.CheckBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).BeginInit();
+            this.splitContainer2.Panel1.SuspendLayout();
+            this.splitContainer2.Panel2.SuspendLayout();
+            this.splitContainer2.SuspendLayout();
             this.SuspendLayout();
             // 
             // textBoxFile1
             // 
             this.textBoxFile1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBoxFile1.Location = new System.Drawing.Point(0, 0);
-            this.textBoxFile1.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxFile1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxFile1.Multiline = true;
             this.textBoxFile1.Name = "textBoxFile1";
             this.textBoxFile1.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBoxFile1.Size = new System.Drawing.Size(524, 726);
+            this.textBoxFile1.Size = new System.Drawing.Size(530, 554);
             this.textBoxFile1.TabIndex = 1;
             this.textBoxFile1.WordWrap = false;
             // 
@@ -68,11 +74,11 @@
             // 
             this.textBoxFile2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBoxFile2.Location = new System.Drawing.Point(0, 0);
-            this.textBoxFile2.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxFile2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxFile2.Multiline = true;
             this.textBoxFile2.Name = "textBoxFile2";
             this.textBoxFile2.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBoxFile2.Size = new System.Drawing.Size(538, 726);
+            this.textBoxFile2.Size = new System.Drawing.Size(532, 554);
             this.textBoxFile2.TabIndex = 2;
             this.textBoxFile2.WordWrap = false;
             // 
@@ -177,8 +183,8 @@
             // splitContainer1
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer1.Location = new System.Drawing.Point(0, 28);
-            this.splitContainer1.Margin = new System.Windows.Forms.Padding(4);
+            this.splitContainer1.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -188,8 +194,8 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.textBoxFile2);
-            this.splitContainer1.Size = new System.Drawing.Size(1067, 726);
-            this.splitContainer1.SplitterDistance = 524;
+            this.splitContainer1.Size = new System.Drawing.Size(1067, 554);
+            this.splitContainer1.SplitterDistance = 530;
             this.splitContainer1.SplitterWidth = 5;
             this.splitContainer1.TabIndex = 4;
             // 
@@ -197,15 +203,45 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // splitContainer2
+            // 
+            this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer2.IsSplitterFixed = true;
+            this.splitContainer2.Location = new System.Drawing.Point(0, 28);
+            this.splitContainer2.Name = "splitContainer2";
+            this.splitContainer2.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainer2.Panel1
+            // 
+            this.splitContainer2.Panel1.Controls.Add(this.splitContainer1);
+            // 
+            // splitContainer2.Panel2
+            // 
+            this.splitContainer2.Panel2.Controls.Add(this.AddBirthdayTagsCheckBox);
+            this.splitContainer2.Size = new System.Drawing.Size(1067, 640);
+            this.splitContainer2.SplitterDistance = 554;
+            this.splitContainer2.TabIndex = 3;
+            // 
+            // AddBirthdayTagsCheckBox
+            // 
+            this.AddBirthdayTagsCheckBox.AutoSize = true;
+            this.AddBirthdayTagsCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.AddBirthdayTagsCheckBox.Location = new System.Drawing.Point(26, 29);
+            this.AddBirthdayTagsCheckBox.Name = "AddBirthdayTagsCheckBox";
+            this.AddBirthdayTagsCheckBox.Size = new System.Drawing.Size(164, 24);
+            this.AddBirthdayTagsCheckBox.TabIndex = 0;
+            this.AddBirthdayTagsCheckBox.Text = "Add Birthday tags";
+            this.AddBirthdayTagsCheckBox.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 754);
-            this.Controls.Add(this.splitContainer1);
+            this.ClientSize = new System.Drawing.Size(1067, 668);
+            this.Controls.Add(this.splitContainer2);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
@@ -217,6 +253,11 @@
             this.splitContainer1.Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
+            this.splitContainer2.Panel1.ResumeLayout(false);
+            this.splitContainer2.Panel2.ResumeLayout(false);
+            this.splitContainer2.Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).EndInit();
+            this.splitContainer2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -241,6 +282,8 @@
         private System.Windows.Forms.ToolStripMenuItem saveResultAsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem closeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tagConversionToolStripMenuItem;
+        private System.Windows.Forms.SplitContainer splitContainer2;
+        private System.Windows.Forms.CheckBox AddBirthdayTagsCheckBox;
     }
 }
 
