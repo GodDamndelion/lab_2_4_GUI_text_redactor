@@ -228,6 +228,7 @@ namespace WindowsFormsApp1
             // (очистка текстовых полей)
         }
         //      {"", "" },
+        //      {"", "#@artdyk" },
         //      {"#@artdyk", "#@artdyk"},
         //      #@artdyk
         //      "#@artdyk"
@@ -235,9 +236,15 @@ namespace WindowsFormsApp1
         {
             //Copyrights
             {"#SeishunButaYarou@artdyk",    "#ЭтотГлупыйСвинНеПонимаетМечтуДевочкиЗайки@artdyk" },
-            {"#KonoSubarashiiSekaiNiShukufukuWo@artdyk", "#Коносуба@artdyk" },
-            {"#KaguyaSamaWaKokurasetaiTensaiTachiNoRenaiZunousen@artdyk", "#ГоспожаКагуя@artdyk" },
-            {"#ReZeroKaraHajimeruIsekaiSeikatsu@artdyk", "#ReZero@artdyk" },
+            {"#SteinsGate@artdyk",          "#ВратаШтейна@artdyk" },
+            {"#SpiceAndWolf@artdyk",        "#ВолчицаИПряности@artdyk" },
+            {"#BocchiTheRock@artdyk",       "#ОдинокийРокер@artdyk" },
+            {"#Clannad@artdyk",             "#Кланнад@artdyk" },
+            {"#KonoSubarashiiSekaiNiShukufukuWo@artdyk",                    "#Коносуба@artdyk" },
+            {"#KaguyaSamaWaKokurasetaiTensaiTachiNoRenaiZunousen@artdyk",   "#ГоспожаКагуя@artdyk" },
+            {"#ReZeroKaraHajimeruIsekaiSeikatsu@artdyk",                    "#ReZero@artdyk" },
+            {"#YahariOreNoSeishunLovecomeWaMachigatteiru@artdyk",           "#Oregairu@artdyk #МояШкольнаяРомантическаяЖизньНеУдалась@artdyk" },
+            {"#NeonGenesisEvangelion@artdyk",                               "#Evangelion@artdyk #Евангелион@artdyk #ЕвангелионНовогоПоколения@artdyk" },
 
             //Characters
             {"#SakurajimaMai@artdyk",       "#МайСакурадзима@artdyk" },
@@ -247,7 +254,23 @@ namespace WindowsFormsApp1
             {"#SatouKazuma@artdyk",         "#КазумаСато@artdyk" },
             {"#HayasakaAi@artdyk",          "#АйХаясака@artdyk" },
             {"#Rem@artdyk",                 "#Рем@artdyk" },
+            {"#Ram@artdyk",                 "#Рам@artdyk" },
+            {"#PetraLeyte@artdyk",          "#ПетраЛейте@artdyk #ПетраЛейтэ@artdyk" },
             {"#FredericaBaumann@artdyk",    "#ФредерикаБауманн@artdyk" },
+            {"#GawrGura@artdyk",            "#ГаврГура@artdyk" },
+            {"#HiratsukaShizuka@artdyk",    "#ШизукаХирацука@artdyk" },
+            {"#KatsuragiMisato@artdyk",     "#МисатоКацураги@artdyk" },
+            {"#OkabeRintarou@artdyk",       "#РинтароОкабэ@artdyk" },
+            {"#MakiseKurisu@artdyk",        "#КурисуМакисэ@artdyk" },
+            {"#HiyajouMaho@artdyk",         "#МахоХиядзё@artdyk" },
+            {"#Holo@artdyk",                "#Холо@artdyk" },
+            {"#CraftLawrence@artdyk",       "#КрафтЛоуренс@artdyk" },
+            {"#GotouHitori@artdyk",         "#ХиториГото@artdyk" },
+            {"#FurukawaNagisa@artdyk",      "#НагисаФурукава@artdyk" },
+            {"#IbukiFuuko@artdyk",          "#ФукоИбуки@artdyk" },
+            {"#SakagamiTomoyo@artdyk",      "#ТомоэСакагами@artdyk #ТомоёСакагами@artdyk #ТомойоСакагами@artdyk" },
+            {"#OkazakiTomoya@artdyk",       "#ТомояОказаки@artdyk" },
+            {"#OkazakiUshio@artdyk",        "#УсиоОказаки@artdyk" },
 
             //General
             {"#Ass@artdyk",                 "#Жопа@artdyk #Жопка@artdyk #Попа@artdyk #Попка@artdyk #Задница@artdyk" },
@@ -256,7 +279,7 @@ namespace WindowsFormsApp1
             {"#DoubleV@artdyk",             "#DoubleVSign@artdyk #DoublePeace@artdyk #ДвойнойPeace@artdyk #ДвойнойМир@artdyk #ДвойнойПис@artdyk" },
             {"#Smug@artdyk",                "#СамодовольноеХе@artdyk #Ухмылка@artdyk" },
             {"#Back@artdyk",                "#Спина@artdyk" },
-            {"#Smile@artdyk",               "#хе@artdyk" },
+            {"#Smile@artdyk",               "#Улыбка@artdyk #Улыбается@artdyk #хе@artdyk" },
             {"#OneEyeClosed@artdyk",        "#ОдинГлазЗакрыт@artdyk" }, //Без #Wink@artdyk и #Подмигивает@artdyk!!!
             {"#ClosedEyes@artdyk",          "#ЗакрытыеГлаза@artdyk #ГлазаЗакрыты@artdyk"},
             {"#TongueOut@artdyk",           "#ПоказываетЯзык@artdyk" },
@@ -264,10 +287,23 @@ namespace WindowsFormsApp1
             {"#OpenMouth@artdyk",           "#ОткрытыйРот@artdyk #РотОткрыт@artdyk" },
             {"#ClosedMouth@artdyk",         "#ЗакрытыйРот@artdyk #РотЗакрыт@artdyk" },
             {"#Birthday@artdyk",            "#ДеньРождения@artdyk" },
+            {"#Maid@artdyk",                "#Горничная@artdyk #ФормаГорничной@artdyk #КостюмГорничной@artdyk" },
+            {"#Smoking@artdyk",             "#Курит@artdyk" },
+            {"#Cigarette@artdyk",           "#Сигарета@artdyk #Сигареты@artdyk" },
+            {"#PartedLips@artdyk",          "#ПриоткрытыеГубы@artdyk #ПриоткрытыйРот@artdyk" },
+            {"#Labcoat@artdyk",             "#ЛабораторныйХалат@artdyk" },
+            {"#Shirt@artdyk",               "#Рубашка@artdyk" },
+            {"#Necktie@artdyk",             "#Галстук@artdyk" },
+            {"#Crossover@artdyk",           "#Кроссовер@artdyk" },
+            {"#SchoolUniform@artdyk",       "#ШкольнаяФорма@artdyk" },
+            {"#Food@artdyk",                "#Еда@artdyk" },
+            {"#TransparentBackground@artdyk",   "#ПрозрачныйФон@artdyk (в оригинале)" },
 
             //Meta
             {"#Highres@artdyk",             "#HighResolution@artdyk #Качественный@artdyk" },
             {"#Absurdres@artdyk",           "#AbsurdResolution@artdyk #ОченьКачественный@artdyk" },
+            {"#AlphaTransparency@artdyk",   "#АльфаПрозрачность@artdyk (в оригинале)" },
+            {"#OfficialArt@artdyk",         "#ОфициальныйАрт@artdyk #Официальный@artdyk" },
         };
         Dictionary<string, string> replace_list = new Dictionary<string, string>()
         {
@@ -276,6 +312,7 @@ namespace WindowsFormsApp1
             {"#><@artdyk",                  "#TightlyClosedEyes@artdyk #КрепкоЗакрытыеГлаза@artdyk" },
             {"#Xd@artdyk",                  "#XD@artdyk" },
             {"#3@artdyk",                   "#CatFace@artdyk" }, //:3 ;3 #X3@artdyk уже содержит 2 нужных тега и в переводе не нуждается
+            {"#YahariOreNoSeishunLovecomeWaMachigatteiru.@artdyk", "#YahariOreNoSeishunLovecomeWaMachigatteiru@artdyk" },
         };
         string[] black_list =
         {
@@ -284,14 +321,21 @@ namespace WindowsFormsApp1
             "#EnglishCommentary@artdyk",
             "#PaidRewardAvailable@artdyk",
             "#HaysacaA.Smithee@artdyk",
-            "#p@artdyk", //:p ;p
-            "#d@artdyk", //:d ;d
-            "#q@artdyk", //:q ;q
-            "#o@artdyk", //:o ;o
+            "#p@artdyk", "#P@artdyk", //:p ;p
+            "#d@artdyk", "#D@artdyk", //:d ;d
+            "#q@artdyk", "#Q@artdyk", //:q ;q
+            "#o@artdyk", "#O@artdyk", //:o ;o
             "#Translated@artdyk",
             "#TranslationRequest@artdyk",
             "#PartiallyTranslated@artdyk",
             "#CheckTranslation@artdyk",
+            "#SymbolOnlyCommentary@artdyk",
+            "#PortugueseCommentary@artdyk",
+            "#PartialCommentary@artdyk",
+            "#BadId@artdyk",
+            "#BadPixivId@artdyk",
+            "#BadTwitterId@artdyk",
+            "#DangoDaikazoku@artdyk",
         };
         private void tagConversionToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -324,7 +368,7 @@ namespace WindowsFormsApp1
                         if (s_mas[j] != "" && (s_mas[j].Contains('(') || s_mas[j].Contains(')')))
                             s_mas[j] = "";
                         if (s_mas[j] != "")
-                            s_mas[j] = s_mas[j][0].ToString().ToUpper() + s_mas[j].Remove(0, 1);
+                            s_mas[j] = s_mas[j][0].ToString().ToUpper() + s_mas[j].Remove(0, 1); //Замена маленьких букв на большие
                         //s_mas[j][0] = s_mas[j][0].ToString().ToUpper(); // Нельзя, т.к. у строк отдельные символы только для чтения...
                     }
 
@@ -345,10 +389,9 @@ namespace WindowsFormsApp1
                 {
                     s2 = replace_list[s2];
                 }
-                else
+                if (dictionary.ContainsKey(s2))
                 {
-                    if (dictionary.ContainsKey(s2))
-                        s2 += " " + dictionary[s2];
+                    s2 += " " + dictionary[s2];
                 }
                 //s2 += String.Join(" ", s_mas);
                 if (!was_deleted)
@@ -364,8 +407,12 @@ namespace WindowsFormsApp1
             {
                 textBoxFile2.AppendText(Environment.NewLine + "\r\nMeta\r\n#Art@artdyk #Арт@artdyk");
                 if (AddBirthdayTagsCheckBox.Checked)
-                    textBoxFile2.AppendText(Environment.NewLine + "\r\n#BirthdayTD@artdyk #TD@artdyk #ДеньРожденияТД@artdyk #ТД@artdyk");
+                    textBoxFile2.AppendText(Environment.NewLine + "#BirthdayTD@artdyk #TD@artdyk #ДеньРожденияТД@artdyk #ТД@artdyk");
             }
+        }
+        private void tagConversionButton_Click(object sender, EventArgs e)
+        {
+            tagConversionToolStripMenuItem_Click(sender, e);
         }
         public void closingSaving(bool answer, object sender, EventArgs e)
         {

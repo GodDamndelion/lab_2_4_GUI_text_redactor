@@ -47,6 +47,7 @@
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
             this.AddBirthdayTagsCheckBox = new System.Windows.Forms.CheckBox();
+            this.tagConversionButton = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -148,21 +149,21 @@
             // option1ToolStripMenuItem
             // 
             this.option1ToolStripMenuItem.Name = "option1ToolStripMenuItem";
-            this.option1ToolStripMenuItem.Size = new System.Drawing.Size(190, 26);
+            this.option1ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.option1ToolStripMenuItem.Text = "Option 1";
             this.option1ToolStripMenuItem.Click += new System.EventHandler(this.option1ToolStripMenuItem_Click);
             // 
             // option2ToolStripMenuItem
             // 
             this.option2ToolStripMenuItem.Name = "option2ToolStripMenuItem";
-            this.option2ToolStripMenuItem.Size = new System.Drawing.Size(190, 26);
+            this.option2ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.option2ToolStripMenuItem.Text = "Option 2";
             this.option2ToolStripMenuItem.Click += new System.EventHandler(this.option2ToolStripMenuItem_Click);
             // 
             // tagConversionToolStripMenuItem
             // 
             this.tagConversionToolStripMenuItem.Name = "tagConversionToolStripMenuItem";
-            this.tagConversionToolStripMenuItem.Size = new System.Drawing.Size(190, 26);
+            this.tagConversionToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.tagConversionToolStripMenuItem.Text = "Tag conversion";
             this.tagConversionToolStripMenuItem.Click += new System.EventHandler(this.tagConversionToolStripMenuItem_Click);
             // 
@@ -217,6 +218,7 @@
             // 
             // splitContainer2.Panel2
             // 
+            this.splitContainer2.Panel2.Controls.Add(this.tagConversionButton);
             this.splitContainer2.Panel2.Controls.Add(this.AddBirthdayTagsCheckBox);
             this.splitContainer2.Size = new System.Drawing.Size(1067, 640);
             this.splitContainer2.SplitterDistance = 554;
@@ -232,6 +234,17 @@
             this.AddBirthdayTagsCheckBox.TabIndex = 0;
             this.AddBirthdayTagsCheckBox.Text = "Add Birthday tags";
             this.AddBirthdayTagsCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // tagConversionButton
+            // 
+            this.tagConversionButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tagConversionButton.Location = new System.Drawing.Point(666, 14);
+            this.tagConversionButton.Name = "tagConversionButton";
+            this.tagConversionButton.Size = new System.Drawing.Size(303, 56);
+            this.tagConversionButton.TabIndex = 1;
+            this.tagConversionButton.Text = "Tag Conversion";
+            this.tagConversionButton.UseVisualStyleBackColor = true;
+            this.tagConversionButton.Click += new System.EventHandler(this.tagConversionButton_Click);
             // 
             // Form1
             // 
@@ -284,6 +297,7 @@
         private System.Windows.Forms.ToolStripMenuItem tagConversionToolStripMenuItem;
         private System.Windows.Forms.SplitContainer splitContainer2;
         private System.Windows.Forms.CheckBox AddBirthdayTagsCheckBox;
+        private System.Windows.Forms.Button tagConversionButton;
     }
 }
 
